@@ -1,0 +1,42 @@
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  height: 50px
+}
+.board--footer {
+  height: 60px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  
+}
+@media (max-width: 361px) {
+  
+}
+@media (max-width: 480px) {
+  
+}
+
+@media (max-width: 768px) {
+}
+
+.board--footer ul li svg {
+  font-size: 35px;
+}
+.board--footer--active svg {
+  font-size: 45px !important;
+}
+.board--footer {
+ 
+}
+.board--footer a {
+  color: white;
+}
+.board--footer a:hover {
+  color: var(--thirth);
+}

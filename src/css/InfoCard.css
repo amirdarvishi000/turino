@@ -1,0 +1,110 @@
+p {
+  margin: 0px;
+}
+.info--card {
+  background-color: turquoise;
+  height: 200px;
+  border-radius: var(--border-radius-default);
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-end;
+  background-position: bottom;
+}
+@media (min-width: 769px) {
+  .info--card {
+    height: 400px;
+  }
+}
+.info--card ul {
+  display: flex;
+  margin-bottom: 16px;
+}
+.info--card ul li {
+  width: 15px;
+  height: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: var(--border-radius-default);
+  border: 3px solid;
+  border-color: var(--fourth);
+}
+.info--card ul li.active {
+  border: 0px;
+  background-color: var(--fourth);
+}
+.info--title {
+  background-color: var(--secondary);
+  border-radius: var(--border-radius-default);
+  width: fit-content;
+  font-weight: bold;
+}
+.info--title--title {
+  background-color: var(--secondary);
+  border-radius: var(--border-radius-default);
+  width: 100%;
+}
+.info--card--info {
+  border: 1px #888888 solid;
+  border-radius: var(--border-radius-default);
+}
+.border-redius-default {
+  border-radius: var(--border-radius-default);
+}
+.warning svg {
+  color: var(--warning);
+}
+.warning::before {
+  margin-right: 100px;
+}
+.warning ul li::marker {
+  color: var(--warning);
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.chart--of--program table,
+.chart--of--program td,
+.chart--of--program th,
+.chart--of--program tr {
+  border-style: solid;
+  border-color: var(--primary);
+  border-width: 3px;
+  vertical-align: center;
+}
+.chart--of--program table {
+}
+.popup-content {
+  width: 85% !important;
+}
+.chart--of--program td,
+.chart--of--program th {
+  padding: 8px;
+  max-width: 50px;
+}
+.chart--of--program th {
+  color: var(--secondary);
+}
+.chart--of--program th.hours {
+  color: var(--thirth);
+}
+.chart--of--program tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+.progress {
+  border-radius: var(--border-radius-default);
+  height: 40px;
+}

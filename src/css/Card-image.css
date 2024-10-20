@@ -1,0 +1,49 @@
+/* phones */
+@media (min-width: 200px) {
+  .card-favorit {
+    height: 150px !important;
+  }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card-favorit {
+    height: 200px !important;
+  }
+}
+@media (min-width: 768px) {
+  .card-favorit {
+    height: 250px !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+.card--item {
+  height: 200px;
+  width: 100%;
+  border-radius: var(--border-radius-default);
+
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  background-size: cover;
+  color: white;
+}
+.card--item:hover {
+  color: var(--scondary);
+}
+.text-align-end {
+  text-align: end;
+}
+.myProgram--icon svg {
+  font-size: 35px;
+}
+.my--program--img-card {
+  max-height: 100px;
+}

@@ -1,0 +1,92 @@
+:root {
+  --primary: #00c954;
+  --secondary: #0061b5;
+  --acent: hsl(220deg 90% 95%);
+  --h3: 14px;
+}
+.calendar {
+  border: 0px !important;
+}
+.calendar table,
+th,
+td,
+tr {
+  border: 0px;
+}
+
+.calendar tr th {
+  height: 50px;
+}
+.calendar .calendar--title {
+  height: 60px;
+  background-color: var(--acent);
+  border-radius: var(--border-radius-default);
+}
+.calendar .calendar--title svg {
+  font-size: 28px;
+}
+.calendar--title a {
+  color: var(--secondary);
+  font-weight: bold;
+}
+.calendar--title .date--title {
+  font-size: 15;
+}
+.calendar tr td span,
+.calendar tr th span {
+  display: flex;
+  border-radius: var(--border-radius-default);
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  max-width: 40px;
+  max-height: 40px;
+  background-color: var(--acent);
+}
+.calendar tr th span {
+  background-color: transparent;
+}
+.calendar tr td,
+.calendar tr th {
+  text-align: -webkit-center;
+}
+.calendar tr th {
+  font-size: 15px;
+}
+.calendar tr td {
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+}
+.calendar tr td .active {
+  background-color: var(--secondary);
+  color: white;
+}
+.program--count {
+  display: flex;
+  justify-content: end;
+}
+.program--count span {
+  border-radius: var(--border-radius-default);
+  padding: 15px;
+  font-size: var(--h3);
+}
+.active--end {
+  background-color: var(--thirth) !important;
+}
+table {
+  border: 0px !important;
+}
+.table-bordered {
+  border: 0px !important;
+}
+table.calendar {
+  border-width: 0px !important;
+}
+table.calendar th,
+table.calendar td,
+table.calendar tr {
+  border-width: 0px !important;
+  border: 0px !important;
+}

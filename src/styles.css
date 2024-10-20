@@ -1,0 +1,113 @@
+:root {
+  --primary: #06b400 !important;
+  --secondary: #1997c7 !important;
+  --thirth: #af00b5 !important;
+  --fourth: #b55400 !important;
+  --warning: #ef7c21;
+  --border-radius-default: 4px;
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+}
+ul {
+  margin: 0px !important;
+}
+.bg-secondary-theme {
+  color: white !important;
+  background-color: var(--secondary) !important;
+}
+.hover--scondary:hover {
+  color: var(--secondary);
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+a:hover {
+  color: var(--secondary) !important;
+}
+a:hover {
+  color: inherit;
+}
+.progress-bar,
+.btn-primary {
+  background-color: var(--secondary) !important;
+}
+.progress-bar {
+  background-color: var(--fourth) !important;
+}
+
+bg-primary {
+  background-color: var(--secondary);
+}
+* {
+  direction: ltr;
+  border: 0;
+  box-sizing: border-box;
+}
+.rating * {
+  direction: ltr;
+}
+p,
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body,
+* {
+  direction: rtl;
+  font-family: "IRANSansX";
+}
+*,
+p {
+}
+.board {
+  text-align: center;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+
+  font-size: 22px;
+  color: white;
+}
+.board--footer--icon svg {
+  font-size: 30px;
+}
+.board--footer--icon svg {
+  font-size: 40 !important;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.badge-success {
+  color: #fff;
+  background-color: #28a745;
+}
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: var(--border-radius-default);
+}
+.popup-content {
+  width: 85% !important;
+}
+.float-left {
+  float: left;
+}
+.w-80 {
+  width: 80%;
+  margin: auto;
+}
+.range-money {
+  font-family: "IRANSansX";
+}

@@ -1,0 +1,13 @@
+.title--input {
+  width: fit-content;
+  padding-left: 16px !important;
+}
+.padding--span--icon {
+  padding-left: 8px;
+}
+.title--input span svg {
+  font-size: 20px;
+}
+.title--input p {
+  font-size: 15px;
+}
